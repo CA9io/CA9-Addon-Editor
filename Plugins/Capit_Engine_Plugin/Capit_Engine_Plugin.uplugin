@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Capit Modeditor Plugin",
+	"Description": "Engine Plugin for the work with our Capit_Products",
+	"Category": "FlatcapIT",
+	"CreatedBy": "FlatcapIT",
+	"CreatedByURL": "https://flatcapit.com",
+	"DocsURL": "https://flatcapit.com",
+	"MarketplaceURL": "",
+	"SupportURL": "support@flatcapit.com",
+	"EngineVersion": "4.24.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Capit_Engine_Plugin_Editor",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		},
+		{
+			"Name": "Capit_Engine_Plugin",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}

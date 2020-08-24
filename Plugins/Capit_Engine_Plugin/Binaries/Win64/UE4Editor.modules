@@ -1,0 +1,8 @@
+{
+	"BuildId": "10570792",
+	"Modules": 
+	{
+		"Capit_Engine_Plugin": "UE4Editor-Capit_Engine_Plugin.dll",
+		"Capit_Engine_Plugin_Editor": "UE4Editor-Capit_Engine_Plugin_Editor.dll"
+	}
+}
